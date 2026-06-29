@@ -2,12 +2,12 @@ import React from 'react'
 import Sidebar from './components/Sidebar'
 import { Route, Routes } from 'react-router-dom'
 import Chatbox from './components/Chatbox'
-import Community from './pages/Community'
 import Credits from './pages/Credits'
+import Community from './pages/Community'
 
 const App = () => {
   return (
-    <div className='dark:bg-gradient-to-b from-[#242124] to-[#000000] dark:text-white'>
+    <div className='dark:bg-gradient-to-b dark:from-[#242124] dark:to-[#000000] dark:text-white'>
       <div className='flex h-screen w-screen'>
         <Sidebar />
         <Routes>

@@ -30,6 +30,7 @@ export const AppContextProvider = ({ children }) => {
     } else {
       document.documentElement.classList.remove('dark')
     }
+    localStorage.setItem('theme', theme)
   }, [theme])
 
   //fetch chat when user changes
@@ -57,7 +58,7 @@ export const AppContextProvider = ({ children }) => {
     selectedChat,
     setSelectedChat,
     theme,
-    setTheme
+        setTheme
   }
 
   return (
