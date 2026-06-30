@@ -15,7 +15,7 @@ const Sidebar = () => {
             className='w-full max-w-48'/>
 
             {/* New Chat Button */}
-            <button className='flex justify-center items-center w-full py-2 mt-10 text-white  bg-gradient-to-r from-[#A456F7] to-[#3D81F6] text-sm rounded-md cursor-pointer'>
+            <button className='flex justify-center items-center w-full py-2 mt-10 text-white  bg-gradient-to-r from-[#6B7280] to-[#000000] text-sm rounded-md cursor-pointer'>
                 <span className='mr-2 text-xl'>+</span> New Chat
             </button>
 
@@ -84,7 +84,7 @@ const Sidebar = () => {
                     <input onChange={()=> setTheme(theme === 'dark' ? 'light' : 'dark')}
                     type="checkbox" className="sr-only peer" checked={theme === 'dark'}/>
                     <div className='w-9 h-5 bg-gray-400 rounded-full
-                    peer-checked:bg-purple-600 transition-all'>
+                    peer-checked:bg-gray-600 transition-all'>
                     </div>
                     <span className='absolute left-1 top-1 w-3 h-3 bg-white rounded-full
                     transition-transform peer-checked:translate-x-4'></span>

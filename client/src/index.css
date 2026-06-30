@@ -9,7 +9,7 @@
 }
 
 @theme {
-    --color-primary: #E6CCFF;
+  --color-primary: #FFFFFF;
 }
 ::-webkit-scrollbar {
     display: none;
